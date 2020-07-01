@@ -123,3 +123,5 @@ target_sources(${LRS_TARGET}
         "${CMAKE_CURRENT_LIST_DIR}/auto-calibrated-device.h"
         "${CMAKE_CURRENT_LIST_DIR}/serializable-interface.h"
 )
+#target_link_libraries(${LRS_TARGET}  usb-1.0)
+
